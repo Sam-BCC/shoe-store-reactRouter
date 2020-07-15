@@ -41,4 +41,4 @@ jobs:
     
     # Deploy app to surge
     - name: Run surge
-      run: surge ./build shoe-store-sam.surge.sh --token ${{secrets.SECRET_TOKEN}}
+      run: surge ./build store-router-sam.surge.sh --token ${{secrets.SECRET_TOKEN}}
