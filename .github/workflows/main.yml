@@ -28,8 +28,8 @@ jobs:
     - name: Yarn Setup
       run: npm install -g yarn surge
       
-    - name: Yarn Install Dependencies
-      run: yarn install
+    - name: Install react router dom
+      run: yarn add react-router-dom
 
     - name: Yarn Build
       run: yarn build
